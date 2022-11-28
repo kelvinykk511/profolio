@@ -116,7 +116,7 @@ function App() {
                         </a>
                     </Grid>
                     <Grid item paddingTop={5} paddingX={5} xs={12} sm={6} md={4} lg={3} display="flex" justifyContent="center" alignItems="center">
-                        <a href={"https://github.com/kelvinykk511/"} target={"_blank"}>
+                        <a href={"mailto:kelvinykk511@gmail.com"} target={"_blank"}>
                             <Card variant="outlined" sx={{
                                 padding: 5,
                                 height: 200,
