@@ -42,13 +42,14 @@ function App() {
                                 component="img"
                                 sx={{height: 70}}
                                 alt="Bybit Logo"
-                                src="bybit-official-image.png"/>
+                                src="bybit-official-image.png"
+                            />
                         </a>
                     </Grid>
                 </Grid>
                 <Grid container display="flex" justifyContent="center" alignItems="center">
                     <Grid item padding={5} xs={12} md={4} lg={3}>
-                        <Card variant="outlined" sx={{padding:5, height:400}}>
+                        <Card variant="outlined" sx={{padding: 5, height: 400}}>
                             <h2>Frontend:</h2>
                             <h5>React.js</h5>
                             <h5>HTML</h5>
@@ -57,7 +58,7 @@ function App() {
                         </Card>
                     </Grid>
                     <Grid item padding={5} xs={12} md={4} lg={3}>
-                        <Card variant="outlined" sx={{padding:5, height:400}}>
+                        <Card variant="outlined" sx={{padding: 5, height: 400}}>
                             <h2>Backend:</h2>
                             <h5>Java</h5>
                             <h5>SpringBoot</h5>
@@ -66,6 +67,74 @@ function App() {
                             <h5>MySQL</h5>
                             <h5>Redis</h5>
                         </Card>
+                    </Grid>
+                </Grid>
+                <Grid container display="flex" justifyContent="center" alignItems="center">
+                    <Grid item xs={12} md={12} lg={12}>
+                        <h1 align={"center"}>Contact Me</h1>
+                    </Grid>
+                    <Grid item paddingTop={5} paddingX={5} xs={12} sm={6} md={4} lg={3} display="flex" justifyContent="center" alignItems="center">
+                        <a href={"https://www.linkedin.com/in/kelvin-yang-7873a9187/"} target={"_blank"}>
+                        <Card variant="outlined" sx={{
+                            padding: 5,
+                            height: 200,
+                            width:250,
+                        }}>
+                            <Grid item display="flex" justifyContent="center" alignItems="center">
+                                <Box
+                                    component="img"
+                                    sx={{height: 70}}
+                                    alt="LinkedIn Logo"
+                                    src="linkedin-icon.png"
+                                />
+                            </Grid>
+                            <Grid>
+                                <h1 align={"center"}>LinkedIn</h1>
+                            </Grid>
+                        </Card>
+                        </a>
+                    </Grid>
+                    <Grid item paddingTop={5} paddingX={5} xs={12} sm={6} md={4} lg={3} display="flex" justifyContent="center" alignItems="center">
+                        <a href={"https://github.com/kelvinykk511/"} target={"_blank"}>
+                            <Card variant="outlined" sx={{
+                                padding: 5,
+                                height: 200,
+                                width:250,
+                            }}>
+                                <Grid item display="flex" justifyContent="center" alignItems="center" >
+                                    <Box
+                                        component="img"
+                                        sx={{height: 70}}
+                                        alt="GitHub Logo"
+                                        src="GitHub-Mark-Light-120px-plus.png"
+                                    />
+                                </Grid>
+                                <Grid>
+                                    <h1 align={"center"}>GitHub</h1>
+                                </Grid>
+                            </Card>
+                        </a>
+                    </Grid>
+                    <Grid item paddingTop={5} paddingX={5} xs={12} sm={6} md={4} lg={3} display="flex" justifyContent="center" alignItems="center">
+                        <a href={"https://github.com/kelvinykk511/"} target={"_blank"}>
+                            <Card variant="outlined" sx={{
+                                padding: 5,
+                                height: 200,
+                                width:250,
+                            }}>
+                                <Grid item display="flex" justifyContent="center" alignItems="center" alignSelf={"center"}>
+                                    <Box
+                                        component="img"
+                                        sx={{height: 70}}
+                                        alt="GMail Logo"
+                                        src="gmail.png"
+                                    />
+                                </Grid>
+                                <Grid>
+                                    <h1 align={"center"}>GMail</h1>
+                                </Grid>
+                            </Card>
+                        </a>
                     </Grid>
                 </Grid>
             </Grid>
